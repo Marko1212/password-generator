@@ -6,7 +6,7 @@ import { Settings } from './types';
   selector: 'app-root',
   template: `
     <div class="container">
-      <h1>Générez un mot de passe super fort !</h1>
+      <h1>Générez un mot de passe fort !</h1>
       <div class="grid">
         <password-display [password]="password"></password-display>
         <div>
